@@ -1,0 +1,24 @@
+Steps
+
+$ python -m venv env
+
+$ . env/Scripts/activate
+
+$ pip install pyttsx3
+
+$ pip install SpeechRecognition
+
+$ pip install pywhatkit
+
+$ pip install wikipedia
+
+$ pip install requests
+
+We need this file to store some private data such as API Keys, Passwords, and so on that are related to the project. For now, let's store the name of the user and the bot.
+
+Create a file named .env and add the following content there:
+
+USER=Ashish
+BOTNAME=JARVIS
+
+$ pip install python-decouple
